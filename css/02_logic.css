@@ -24,7 +24,7 @@ body {
 
 .shape {
   width: 4vw;
-  height: 2vw;
+  height: 1vw;
   background: hsl(250, 80%, 30%);
   display: inline-block;
   margin: 0;
