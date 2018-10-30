@@ -23,7 +23,7 @@ body {
 }
 
 .shape {
-  width: 2vw;
+  width: 4vw;
   height: 2vw;
   background: hsl(250, 80%, 30%);
   display: inline-block;
@@ -35,7 +35,7 @@ body {
 }
 
 .variation-2 {
-  background: hsl(210, 60%, 30%);
+  background: hsl(190, 60%, 30%);
 }
 
 .variation-3 {
