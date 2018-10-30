@@ -40,3 +40,18 @@ for ( var i = 0; i < 200; i++) {
 	// add a div with class "shape" to container div
 	container.append(shape);
 }
+
+// Selects all divs with class "shape"
+var shapes = document.querySelectorAll('.shape');
+
+// Loop over all of the shapes
+shapes.forEach(	function(shape, i) {
+	//what happens to each shape
+	var color = hslColor( i, 50,50) ;
+	shape.style.background=color;
+});
+
+
+
+
+
