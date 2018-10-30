@@ -31,6 +31,6 @@ var shape = document.createElement('div');
 
 shape.classList.add('shape');
 
-var container = document.querySelector('content');
+var container = document.querySelector('.content');
 
 container.append(shape);
