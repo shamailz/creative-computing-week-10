@@ -47,7 +47,7 @@ var shapes = document.querySelectorAll('.shape');
 // Loop over all of the shapes
 shapes.forEach(	function(shape, i) {
 	//what happens to each shape
-	var color = hslColor( i, 50,50) ;
+	var color = hslColor( 0, i,50) ;
 	shape.style.background=color;
 });
 
