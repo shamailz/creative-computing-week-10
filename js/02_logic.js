@@ -20,7 +20,7 @@ for ( var i = 0; i < 2000; i++) {
 	//add class "shape" to div
 	shape.classList.add('shape');
 
-		if (i < 340 && i > 230) {
+		if (i % 2 == 0) {
 			shape.classList.add('variation-1');
 		}
 
