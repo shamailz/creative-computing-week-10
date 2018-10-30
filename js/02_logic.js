@@ -20,9 +20,14 @@ for ( var i = 0; i < 2000; i++) {
 	//add class "shape" to div
 	shape.classList.add('shape');
 
-		if (i % 3 == 0) {
+		if (i % 23 == 0) {
 			shape.classList.add('variation-1');
 		}
+
+		if (i % 3 == 0) {
+			shape.classList.add('variation-2');
+		}
+
 
 	// select container div
 	var container = document.querySelector('.content');
